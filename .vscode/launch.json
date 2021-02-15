@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+       
+        {
+            "name": "articles_app",
+            "request": "launch",
+            "type": "dart",
+           
+            // "args":["--observatory-port=8879", "--disable-service-auth-codes"],
+            "program": "lib/main.dart"
+        },  
+        {
+            "name": "Dart: Run test main",
+            "type": "dart",
+            "request": "launch",
+            //  "args":["--observatory-port=8879", "--disable-service-auth-codes"],
+            "program": "./test_driver/app.dart"
+        },
+        {
+            "name": "Dart: Run UI test",
+            "type": "dart",
+            "request": "launch",  
+            //"args":["--observatory-port=8879", "--disable-service-auth-codes"],
+            "env":{
+                "VM_SERVICE_URL":"http://127.0.0.1:8879/"
+            },
+            "program": "./test_driver/app_test.dart"
+        }
+    ]
+}
