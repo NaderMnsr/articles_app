@@ -21,7 +21,7 @@ this folder contains two files that helps in excuting Integration test using flu
 
 In order to run the Integration test use the following command:
 > flutter drive --target=test_driver/main.dart 
-##Code coverage:
+## Code coverage:
 Code Coverage can be generated using the following command:
 > flutter test --coverage
 A folder named **coverage** will be created on the project folder.
