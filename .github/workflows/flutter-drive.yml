@@ -15,7 +15,7 @@ jobs:
         device:
         #- "iPhone 8 (13.1)"
         #- "iPhone 11  (13.1)"
-        - "iPhone 11 Pro Max(14.3)"
+        - "iPhone 12 Pro Max (14.3)"
       # When set to true, GitHub cancels all in-progress jobs if any        
       # matrix job fails.
       fail-fast: false
